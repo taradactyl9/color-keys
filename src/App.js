@@ -1,4 +1,4 @@
-import ',/App.css';
+import './App.css';
 import { Piano } from './Components/Piano.js';
 
 function App() {
