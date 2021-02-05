@@ -14,3 +14,6 @@
     pointer-events: none;
   }
  
+  .key.pressed {
+    background-color: #00d8ff;
+  }
