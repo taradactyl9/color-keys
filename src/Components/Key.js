@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 import './Key.css'
-import { NOTE_TO_KEY, NOTES } from '../global/constants';
+import { NOTE_TO_KEY } from './Constants';
 
 class Key extends React.Component {
     noteIsFlat = (note) => {
@@ -12,7 +12,7 @@ class Key extends React.Component {
         return _.includes(pressedKeys, NOTE_TO_KEY[note]);
     }
     handleClick = (note,pressedKeys) => {
-      return _.includes(pressedKeys, NOTES[note]);
+      return _.includes(pressedKeys);
     }
 
     render() {
