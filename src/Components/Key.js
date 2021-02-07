@@ -35,6 +35,7 @@ class Key extends React.Component {
         } else {
           key = (
             <div className={keyClassName} onClick={() => handleClick}>
+              <div className="key-text">{this.props.note.toUpperCase()}</div>
             </div>
           );
         }
