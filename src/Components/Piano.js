@@ -2,7 +2,9 @@ import React from 'react';
 import _ from 'lodash';
 import { Key } from './Key.js';
 import './Piano.css';
-import { NOTES, VALID_KEYS, KEY_TO_NOTE, } from '../global/constants.js'
+import { NOTES, VALID_KEYS, KEY_TO_NOTE, } from './Constants';
+
+
  
 class Piano extends React.Component {
     constructor(props) {
@@ -73,7 +75,7 @@ class Piano extends React.Component {
         <div>
           <div className="piano">
             {keys}
-          </div>
+         </div>
           <div>
             {audioFiles}
           </div>
