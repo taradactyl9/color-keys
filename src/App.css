@@ -31,3 +31,12 @@
       transform: rotate(360deg);
     }
   }
+
+  .guide {
+    color: blue;
+    font-family: 'Bungee Inline', cursive;
+    margin-right: 1300px;
+    margin-top: -500px;
+  }
+
+ 
