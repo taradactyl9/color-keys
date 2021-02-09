@@ -2,10 +2,11 @@ import React from 'react';
 import { Toggle } from './Toggle';
 
 
+
 class Random extends React.Component {
     constructor(props){
         super(props);
-        this.state = {color: [0, 100, 255]}
+        this.state = {color: [0, 0, 0]}
         this.handleClick = this.handleClick.bind(this);
     }
 

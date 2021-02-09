@@ -1,16 +1,20 @@
 .header {
 font-family: 'Bungee Inline', cursive;
+color: blue;
 }
+
 .h1 {
 font-family: 'Bungee Inline', cursive;
 position: absolute;
 top: 0;
 text-align: center;
 color: white;
-font-size: 70px;
+font-size: 100px;
 }
 
 .h2 {
     font-family: 'Ultra', serif;
+    
 }
 
+ 
